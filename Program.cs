@@ -30,11 +30,15 @@ namespace ConsoleCalculator
             Console.WriteLine(result);
         }
 
-        static int Sum()
+        static int Sub()
+        {
+            return Program.operand1 - Program.operand2;
+        }
+	
+	static int Sum()
         {
             return Program.operand1 + Program.operand2;
         }
-
         static int applyOperation()
         {
             switch (Program.operation)
