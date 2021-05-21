@@ -6,7 +6,7 @@ namespace ConsoleCalculator
     {
         static int operand1;
 
-        static int operand2;
+        static int operand2; //коммент
 
         static string operation;
 
